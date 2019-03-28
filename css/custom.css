@@ -1,0 +1,335 @@
+﻿#preloader h6{
+	display:none;
+}
+.slider-dnt-settings{
+	padding-bottom:500px;
+}
+.slider-dnt-settings:before{
+	background-color: rgba(34,34,34,0.5);
+}
+
+
+.header {
+    background-color: white;
+	padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/**** menu **/
+.nav-menu {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.nav-menu ul.nav-menu-inner li a {
+    font-size: 15px;
+	color: #111;
+}
+.logo {
+	padding: 0px 0 0;
+}
+
+.header-fixed .nav-menu ul.nav-menu-inner li a {
+	color: #fff;
+}
+.logo a {
+    width: auto;
+}
+.logo a img {
+    height: 40px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 0px;
+	margin-right: 20px;
+}
+/** FOOTER MINI MENU **/
+.mini-menu{
+	padding: 0px 0px;
+	margin-top: 20px;
+}
+.mini-menu ul{
+	padding: 0px 10px;
+	margin-left: 10px;
+}
+.mini-menu li{
+	float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+.mini-menu li a{
+	color: #fff;
+}
+/** FOOTER EXTENDS **/
+.extends ul li{
+	float: right;
+    list-style: none;
+    margin-right: 15px;
+}
+.extends ul li a{
+	color: #fff;
+}
+
+/** FOOTER ABOUT **/
+.about ul{
+	padding: 0px 0px;
+}
+.about ul li{
+	float: left;
+    list-style: none;
+	margin-right: 15px;
+}
+.about ul li a{
+	color: #fff;
+}
+
+/** MODUL INTRO **/
+.intro .dnt-progress{
+	margin-top: 40px;
+}
+.intro .modul-image{
+	margin-top: 10px;
+}
+
+/*** FORMULARS ***/
+.dnt-form input[type="radio"]{
+    height: 20px;
+    width: 20px;
+    -webkit-appearance: radio;
+    border: 1.5px solid #64b932;
+    border-radius: 0px;
+}
+
+.dnt-form input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    -webkit-appearance: checkbox;
+    border: 1.5px solid #64b932;
+    border-radius: 0px;
+	    margin-top: 15px;
+}
+
+.dnt-form input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.dnt-form label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+	    display: -webkit-box;
+}
+
+
+.dnt-form .checkbox-line {
+    /*border-bottom: 1px solid #eee;*/
+    padding: 10px 0px !important;
+	margin: 0px 0px !important;
+}
+
+.dnt-form .row.captcha {
+    padding: 20px 0px;
+}
+/*
+.dnt-form .checkbox-line:last-child{
+	border-bottom: 0px solid #eee;
+}
+*/
+.dnt-form .checkbox-line input {
+    float: left;
+    margin-top: 0px;
+}
+.dnt-form .container {
+    border-radius: 5px;
+    padding: 20px;
+}
+.dnt-form a {
+    font-size:11px;
+	font-family: 'Montserrat', sans-serif;
+	/*text-transform: uppercase;*/
+}
+
+.dnt-form .row{
+	margin:0px;
+	padding:0px;
+}
+.dnt-form .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.dnt-form .col-40 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+}
+.dnt-form .col-60 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+.dnt-form .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.dnt-form .dnt-form-item {
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Clear floats after the columns */
+.dnt-form .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .dnt-form .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.dnt-form h1.main-title {
+    color: #fff;
+}
+
+/*** REGION MOSULE ***/
+/*
+.region .testimonials-bg {
+    background: linear-gradient(135deg,#3d7aef,#2b4be4)!important;
+    color: #fff;
+}
+*/
+
+@media (min-width: 1024px){
+.region .slanted-reverse {
+    clip-path: polygon(0 0,100% 25px,100% 100%,0 calc(100% - 25px));
+	padding: 60px 0px;
+	margin: 0px 0px;
+}
+}
+.region .testimonials h3 {
+    margin: 20px auto 50px;
+    line-height: 1.45;
+    font-size: 36px;
+}
+.region .testimonials .item h4 {
+    margin-top: 0;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #fff;
+    padding: 24px 30px;
+    background-color: rgba(255,255,255,.12);
+    border-radius: 5px;
+}
+.region .testimonials .item p {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.mapa{
+	padding: 0px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: initial;
+}
+
+.region .gal-item{
+	overflow: hidden;
+	padding: 8px;
+}
+.region .gal-item .box{
+	height: 100%;
+	overflow: hidden;
+}
+.region .box img{
+	height: 100%;
+	width: auto;
+	object-fit:cover;
+}
+
+.region .portfolio-grid-fit .portfolio-item {
+    padding: 20px;
+}
+
+.region .video_div{
+		text-align: center;
+		width: 100%;
+	}
+	.region .responsive-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+	.region .responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+	.region .video_div {
+		max-width: 100%;
+		display: inline-block;
+	}
+	.region .video_cont{
+		text-align: center;	
+		overflow: hidden;
+		vertical-align: middle;
+	}
+	
+.region .video-and-gallery{
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.region  h3 {
+    margin: 0px auto 0px;
+	margin-bottom:20px;
+    line-height: 1.45;
+    font-size: 36px;
+}
+.region .testimonials h3 {
+    color: #fff;
+	margin: 20px auto 50px;
+    line-height: 1.45;
+    font-size: 36px;
+}
+
+.region .padding{
+	    padding: 70px 0px;
+}
+
+.portfolio-box .portfolio-caption .portfolio-caption-tb-cell {
+    padding: 13%;
+}
+
+.dnt-reg-link{
+	margin-top: 20px;
+}
+.dnt-reg-link a{
+	margin: 0px auto;
+}
+
+/** HOTELY **/
+.hotely .section-padding{
+	border-bottom: 1px dotted #ccc;	
+	    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hotely .about-me .service-box p{
+	text-align:center;
+	    font-size: 12px;
+}
+.hotely .service-boxes{
+	padding-top: 50px;
+    padding-bottom: 0px;
+}
